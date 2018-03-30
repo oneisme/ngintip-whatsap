@@ -55,7 +55,7 @@ print('''\033[01;32m
 				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m para continuar...")
 				main()
 			except:
-				print('\033[01;31m[!]\033[00;00m Obrolan whatsap!')
+				print('\033[01;31m[!]\033[00;00m Conversa não encontrada!')
 				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m para continuar...")
 				main()
 
