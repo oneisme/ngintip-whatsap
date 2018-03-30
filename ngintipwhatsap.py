@@ -50,13 +50,13 @@ print('''\033[01;32m
 					botao = driver.find_element_by_class_name('compose-btn-send')
 					botao.click()
 
-					print('\033[01;32m[*]\033[00;00m Pesenmu wis sukses terkirim!')
+					print('\033[01;32m[*]\033[00;00m Mensagem enviada com sucesso')
 
-				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m selanjutnya...")
+				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m para continuar...")
 				main()
 			except:
 				print('\033[01;31m[!]\033[00;00m Obrolan whatsap!')
-				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m selanjutnya...")
+				input("\033[01;35m[*]\033[00;00m Pressione \033[01;33m[ENTER]\033[00;00m para continuar...")
 				main()
 
 		main()
