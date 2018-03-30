@@ -33,9 +33,12 @@ print('''\033[01;32m
 
 			print('\033[01;32m[*]\033[00;00m Leia o QRCode')
 
-			naza_gai = input('\033[01;34m[+]\033[00;00m Nomere koncomu utowo group: ')
-			lawliet_viad = input('\033[01;34m[+]\033[00;00m Pesene piye: ')
-			ian_tetud = int(input('\033[01;34m[+]\033[00;00m Piro sih pesen sing meh dikirim: '))
+			naza_gai = input('\033[01;34m[+]\033[00;00m Nome do contato ou grupo: ')
+			lawliet_viad = input('\033[01;34m[+]\033[00;00m Mensagem: ')
+			ian_tetud = int(input('\033[01;34m[+]\033[00;00m Quantidade de mensagens: '))
+			
+			
+	
 
 			try:
 				user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(naza_gai))
